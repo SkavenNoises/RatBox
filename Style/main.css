@@ -33,19 +33,31 @@ header nav ul li a {
 	text-decoration: none;
 }
 
-.social {
+.social_nav {
 	float: right;
 }
 
+.social_button {
+	padding: 5px;
+}
+
 .logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.tagline {
 	margin: 0 auto;
 	text-align: center;
-	left: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
 }
 
 .content {
 	margin: 0 auto;
 	text-align: center;
-	left: 50%;
-	top: 50%;
+	margin-left: auto;
+	margin-right: auto;
 }
