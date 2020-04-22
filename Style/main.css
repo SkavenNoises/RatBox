@@ -1,6 +1,7 @@
 body {
 	background-color: white;
 	font-family: arial;
+
 	margin: 0;
 }
 
@@ -12,20 +13,23 @@ header {
 header h1 {
 	margin: 0;
 	color: white;
+
 	display: inline;
 }
 
 header nav ul {
 	margin: 0;
+
 	display: inline;
 }
 
 header nav ul li {
-	display: inline-block;
 	list-style-type: none;
 	padding: 5px 15px;
-	margin: 0;
 	color: white;
+
+	display: inline-block;
+	margin: 0;
 }
 
 header nav ul li a {
@@ -33,33 +37,61 @@ header nav ul li a {
 	text-decoration: none;
 }
 
-.social_nav {
+.social_nav li {
+	padding: 5px;
+
 	float: right;
 }
 
-.social_button {
-	padding: 5px;
-}
-
 .logo_container img {
-	display: block;
 	padding: 15px 0px 0px 0px;
 	margin-right: auto;
 	margin-left: auto;
 	max-width: 500px;
+
+	display: block;
 }
 
 .logo_container h3 {
+	color: white;
+
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	color: white;
 }
 
-.content {
-	margin: 0 auto;
-	text-align: center;
+.cardholder {
+	padding-top: 50px;
+	width: 50%;
+
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.cardholder img {
+	image-orientation: from-image;
+	border-radius: 15px;
+	max-width: auto;
+	max-height: 500px;
+	padding-right: 5px;
+
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.about_card {
+	background-color: rgba(0, 0, 0, 0.8);
+	border-radius: 15px;
+	max-width: 500px;
+	max-height: auto;
+	padding-left: 5px;
+
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.about_card p {
+	padding: 20px;
+	text-align: center;
 	color: white;
 }
