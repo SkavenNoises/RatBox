@@ -7,6 +7,18 @@ body {
 	margin: 0;
 }
 
+.colour_overlay {
+	background-color: black;
+	width: 100%;
+	height: 100%;
+	opacity: 60%;
+	background-size: cover;
+	background-position: center;
+
+	position: absolute;
+	z-index: -1;
+}
+
 header {
 	background-color: black;
 	padding: 10px;
