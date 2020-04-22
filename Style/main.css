@@ -1,6 +1,8 @@
 body {
-	background-color: white;
 	font-family: arial;
+	background: url(http://getwallpapers.com/wallpaper/full/2/7/3/678718.jpg);
+	background-size: cover;
+	background-position: center;
 
 	margin: 0;
 }
@@ -91,7 +93,14 @@ header nav ul li a {
 }
 
 .about_card p {
-	padding: 20px;
+	padding: 0px 20px;
 	text-align: center;
 	color: white;
+	text-align: left;
+}
+
+.about_card h3 {
+	padding: 10px 20px 0px 20px;
+	color: white;
+
 }
