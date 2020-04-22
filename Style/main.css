@@ -41,18 +41,18 @@ header nav ul li a {
 	padding: 5px;
 }
 
-.logo {
+.logo_container img {
 	display: block;
-	margin-left: auto;
+	padding: 15px 0px 0px 0px;
 	margin-right: auto;
+	margin-left: auto;
+	max-width: 500px;
 }
 
-.tagline {
-	margin: 0 auto;
+.logo_container h3 {
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 20px;
 	color: white;
 }
 
