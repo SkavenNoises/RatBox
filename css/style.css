@@ -12,3 +12,12 @@ header,
 	-o-background-size: cover;
 	-webkit-background-size: cover;
 }
+
+.taglineList {
+	display: inline;
+	padding: 10px 20px;
+}
+
+.taglineList li {
+	display: inline-block;
+}
