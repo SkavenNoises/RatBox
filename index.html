@@ -1,68 +1,196 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <title>Ratbox</title>
 
-    <link rel="stylesheet" type="text/css" href="css/main.css">
+  <!-- Website Icon icon -->
+  <link rel="icon" href="img/ratbox.ico" type="image/x-icon">
 
-    <title>RatBox - Home</title>
-  </head>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="css/mdb.min.css">
+
+  <!-- Your custom styles -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
 
 
-  <body>
-    <body background="assets/background.jpg">
+<body>
 
-    <div class="container-fluid container_overlay"></div>
+  <!-- Start your project here-->  
+  <!-- Main Navigation -->
+  <header>
 
-    <div class="container-fluid">
-      
-      <!-- Navigation Bar -->
-      <div class="row headerbar">
-        
-        <!-- NavBar Logo -->
-        <div class="column-1 my-auto barlogo">
-          <p>RatBox</p>
-        </div>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark light-green darken-3 fixed-top">
+      <div class="container">
 
-        <!-- NavBar Pages -->
-        <div class="column my-auto pages">
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="commissions.html">Commissions</a></li>
-            <li><a href="photos.html">Photos</a></li>
-            <li><a href="links.html">Links</a></li>
-            <li><a href="shop.html">Shop</a></li>
+        <!-- Navbar brand -->
+        <a class="navbar-brand" href="index.html">RatBox</a>
+
+        <!-- Collapse button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+          aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Collapsible content -->
+        <div class="collapse navbar-collapse" id="basicExampleNav">
+
+          <!-- Links -->
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Commissions</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Photos</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Links</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Shop</a>
+            </li>
           </ul>
+
+          <!-- Social Media Bar -->
+          <ul class="navbar-nav ml-auto nav-flex-icons">
+            <li class="nav-item">
+              <a class="nav-link waves-effect waves-light" href="https://twitter.com/SkavenNoises">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link waves-effect waves-light" href="#">
+                <i class="fab fa-youtube"></i>
+              </a>
+            </li>
+          </ul>
+          <!-- Social Media Bar -->
+
+          <!-- Links -->
         </div>
       </div>
+      <!-- Collapsible content -->
 
-      <!-- Page logo -->
-      <div class="row mx-auto pagelogo">
-        <img src="assets/logo.png">
+    </nav>
+    <!--/.Navbar-->
+
+    <!-- Mask -->
+    <div id="intro" class="view">
+      <div class="mask flex-center rgba-black-strong container-fluid d-flex align-items-center justify-content-center">
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-10 text-center">
+            
+            <img class="img-fluid" src="img/logo.png">
+
+            <ul class="font-bold white-text my-4 taglineList">
+              <li>Fursuit Artist,</li>
+              <li>Plushie Artist,</li>
+              <li>Programmer,</li>
+              <li>Weird Rodent</li>
+            </ul>
+          </div>
+        </div>
       </div>
-
-      <!-- Page tagline -->
-      <div class="row d-flex justify-content-center pagetagline">
-        <p>Fursuit Artist | Plushie Artist | Programmer | Weird Rodent</p>
-      </div>
-
-
-
-
     </div>
+    <!-- Mask -->
+
+  </header>
+  <!-- Main Navigation -->
+
+
+  <!-- Main Layout -->
+  <main class="mt-5">
+    <div class="container">
+      <!-- Sections -->
+      <!-- Home -->
+      <section id="home">
+
+        <h2>Testy McTestFace</h2>
 
 
 
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  </body>
+        
+      </section>
+
+      <hr class="my-5">
+      <!-- Home -->
+
+      <!-- Commissions -->
+      <section id="commissions">
+        
+      </section>
+
+      <hr class="my-5">
+      <!-- Commissions -->
+
+      <!-- Photos -->
+      <section id="photos">
+        
+      </section>
+
+      <hr class="my-5">
+      <!-- Photos -->
+
+      <!-- Links -->
+      <section id="links">
+        
+      </section>
+
+      <hr class="my-5">
+      <!-- Links -->
+
+      <!-- Shop -->
+      <section id="shop">
+        
+      </section>
+
+      <hr class="my-5">
+      <!-- Shop -->
+      <!-- Sections -->
+    </div>
+  </main>
+  <!-- Main Layout -->
+
+
+  <!-- Footer -->
+
+  <!-- Footer -->
+  <!-- End your project here-->
+
+  <!-- jQuery -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Your custom scripts (optional) -->
+  <script type="text/javascript"></script>
+
+</body>
 </html>
