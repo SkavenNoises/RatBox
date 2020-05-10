@@ -6,13 +6,18 @@ header,
 }
 
 #intro {
-	background: url(https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	-webkit-background-size: cover;
 }
 
-.taglineList li {
-	display: inline-block;
+.carousel-image {
+
+	width: 100%;
+	object-fit: cover;
+	object-position: center;
+	image-orientation: from-image;
+
+
 }
