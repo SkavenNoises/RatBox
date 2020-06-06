@@ -1,23 +1,59 @@
+.navbar {
+  background-color: transparent;
+}
+
+.top-nav-collapse {
+  background-color: #000000;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: #000000;
+  }
+}
+
 html,
 body,
 header,
-#intro {
-	height: 100%;
+.view {
+  height: 100%;
 }
 
-#intro {
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	-webkit-background-size: cover;
+body header nav .navbar-brand {
+  -ms-flex-preferred-size: 10%;
+      flex-basis: 10%;
+  justify-items: center;
+  text-align: center;
 }
 
-.carousel-image {
+body header nav .navbar-brand img {
+  width: auto;
+  height: 6vh;
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
+}
 
-	width: 100%;
-	object-fit: cover;
-	object-position: center;
-	image-orientation: from-image;
+body header nav #navbarSupportedContent {
+  -ms-flex-preferred-size: 90%;
+      flex-basis: 90%;
+}
 
+body header #intro #landingPageCarousel .carousel-inner .carousel-item img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  image-orientation: from-image;
+}
 
+body header #intro #mask #mask-wrapper #landingOverlay img {
+  width: auto;
+  height: 50vh;
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
+  margin: 0 auto;
+  margin-top: 5vh;
+}
+
+body header #intro #mask #mask-wrapper #landingOverlay h4 {
+  font-size: 3vh;
+  margin-top: 5vh;
 }
