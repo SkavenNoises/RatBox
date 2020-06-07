@@ -21,7 +21,7 @@
 <body>
 <!-- Start your project here-->  
     <!--Main Navigation-->
-    <header>
+    <header id="home">
         <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
             <a class="navbar-brand" href="#">
                 <img class="responsive" src="img/logo/ratbox_notext.png" alt="">
@@ -32,30 +32,34 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse smooth-scroll" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto smooth-scroll">
                     <li class="nav-item active">
-                        <a class="nav-link font-weight-bold" href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link font-weight-bold" href="#home">Home <span class="sr-only">(current)</span></a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link font-weight-bold" href="#">Events</a>
+                        <a class="nav-link font-weight-bold" href="#about">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link font-weight-bold" href="#events">Events</a>
                     </li>
                     
                     <li class="nav-item">
-                        <a class="nav-link font-weight-bold" href="#">Commissions</a>
+                        <a class="nav-link font-weight-bold" href="#commissions">Commissions</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link font-weight-bold" href="#">Photos</a>
+                        <a class="nav-link font-weight-bold" href="#photos">Photos</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link font-weight-bold" href="#">Shop</a>
+                        <a class="nav-link font-weight-bold" href="#shop">Shop</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link font-weight-bold" href="#">Find Me</a>
+                        <a class="nav-link font-weight-bold" href="#findMe">Find Me</a>
                     </li>
                 </ul>
             </div>
@@ -98,23 +102,157 @@
     
     <!--Main Layout-->
     <main class="text-center py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <p align="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                        ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet,
-                        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                        enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                        nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                        mollit anim id est laborum.
-                    </p>
+        <section id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p align="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                            ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                            enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                            mollit anim id est laborum.
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
+
+        <section id="events">
+            <div class="container">
+                <div class="row">
+                    <h2>Events:</h2>
+                </div>
+
+                <div class="row">
+                    <!-- Card -->
+                    <div class="card">
+                        <!-- Card image -->
+                        <div class="view overlay">
+                            <img class="card-img-top" src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fbarcelona.brunch-in.com%2Fwp-content%2Fuploads%2F2017%2F08%2Fevent-cancelled.png&f=1&nofb=1"
+                                alt="Card image cap">
+                                <a href="#">
+                                    <div class="mask rgba-white-slight"></div>
+                                </a>
+                        </div>
+                    
+                        <!-- Card content -->
+                        <div class="card-body">
+                            <!-- Title -->
+                            <h4 class="card-title">Eurofurence 26</h4>
+                            <!-- Text -->
+                            <p class="card-text text-danger">Cancelled</p>
+                        </div>
+                    </div>
+                    <!-- Card -->
+
+                    <!-- Card -->
+                    <div class="card">
+                        <!-- Card image -->
+                        <div class="view overlay">
+                            <img class="card-img-top" src="https://www.eurofurence.org/EF26/assets/images/background_2K_l.jpg"
+                                alt="Card image cap">
+                                <a href="https://www.eurofurence.org/EF26/">
+                                    <div class="mask rgba-white-slight"></div>
+                                </a>
+                        </div>
+                    
+                        <!-- Card content -->
+                        <div class="card-body">
+                            <!-- Title -->
+                            <h4 class="card-title">Eurofurence</h4>
+                            <!-- Text -->
+                            <p class="card-text">July 28 - August 1 2021</p>
+                        </div>
+                    </div>
+                    <!-- Card -->
+                </div>
+            </div>
+        </section>
+
+        <section id="commissions">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p align="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                            ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                            enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                            mollit anim id est laborum.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="photos">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p align="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                            ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                            enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                            mollit anim id est laborum.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="shop">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p align="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                            ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                            enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                            mollit anim id est laborum.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="findMe">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p align="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                            ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                            enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                            mollit anim id est laborum.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <!--Main Layout-->
 <!-- End your project here-->
